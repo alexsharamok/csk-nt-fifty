@@ -19,7 +19,7 @@ const nextConfig = {
     {
       // https://nextjs.org/docs/advanced-features/security-headers
       // Apply these headers to all routes in your application.
-      source: '/:path*',
+      source: '/*',
       headers: [
         {
           key: 'Content-Security-Policy',
