@@ -23,9 +23,7 @@ const nextConfig = {
       headers: [
         {
           key: 'Content-Security-Policy',
-          value: `${ContentSecurityPolicy.join(
-            ' '
-          )}; base-uri 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'self' https://uniform.app; img-src 'self' https: data:; object-src 'none'; script-src-attr 'none'; style-src 'self' https: 'unsafe-inline'; upgrade-insecure-requests `,
+          value: "base-uri 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'self' https://uniform.app; img-src 'self' https: data:; object-src 'none'; script-src-attr 'none'; style-src 'self' https: 'unsafe-inline'; upgrade-insecure-requests '",
         },
         {
           key: 'X-XSS-Protection',
