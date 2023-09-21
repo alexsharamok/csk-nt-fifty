@@ -1,8 +1,7 @@
 [[headers]]  
   for = "/*"
 
-  [headers.values]
-    Content-Security-Policy = "frame-ancestors https://uniform.app"
+  [headers.values]    
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"        
     cache-control = '''
