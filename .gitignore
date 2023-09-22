@@ -23,8 +23,7 @@ npm-debug.log*
 
 .netlify
 
-.next/*
-!.next/netlify.toml
+.next
 
 dist
 
