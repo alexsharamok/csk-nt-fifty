@@ -46,8 +46,8 @@ const nextConfig = {
           value: 'max-age=63072000; includeSubDomains; preload',
         },
         {
-          key: 'Custom-Uniform',
-          value: 'uni-header',
+          key: 'Custom-Uniform-Test',
+          value: 'unitest',
         },
         {
           key: 'Cross-Origin-Embedder-Policy',
